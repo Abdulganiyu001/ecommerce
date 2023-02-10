@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <title> Cart </title>
+</head>
+<body>
+    
+	<!--NAVIGATION-->
+	<nav class="navbar navbar-expand-lg bg-primary text-white  py-3 fixed-top bt-5">
+        <div class="container">
+         <div class="navbar-brand" href="#"> FEMTECH IT Centre</div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i id="bar" class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ml-auto">
+             
+              <li class="nav-item">
+                <a class="nav-link" href="E-com.html">Home</a>
+              </li>
+      
+              <li class="nav-item">
+                <a class="nav-link" href="ShopEcom.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="AboutEcom.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="Cart.html">Cart</a>
+              </li>
+             </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Section 1-->
+      <section>
+      <div class="container  mt-5 py-3">
+        <h2 class="font-weight-bold pt-5">Shopping Cart</h2>
+        <hr class="">
+      </div>
+    </section>
+
+    <!--Section 2-->
+    <section id="cart-container" class="container my-5">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Total</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><a href="#" class="bi bi-trash"></a></td>
+                    <td><img src="Static/images/L12.jpg"></td>
+                    <td>
+                        <h5>Lenovo Laptop</h5>
+                    </td>
+                    <td>
+                        <h5>#300,000</h5>
+                    </td>
+                    <td><input class="w-25 pl-1" value="1" type="number"></td>
+                    <td>
+                        <h5> #300,000</h5>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><a href="#" class="bi bi-trash"></a></td>
+                    <td><img src="Static/images/s4.jpg"></td>
+                    <td>
+                        <h5>Samsung fold</h5>
+                    </td>
+                    <td>
+                        <h5>#800,000</h5>
+                    </td>
+                    <td><input class="w-25 pl-1" value="1" type="number"></td>
+                    <td>
+                        <h5> #800,000</h5>
+                    </td>
+                </tr>
+        
+
+                <tr>
+                    <td><a href="#" class="bi bi-trash"></a></td>
+                    <td><img src="Static/images/m8.jpg"></td>
+                    <td>
+                        <h5>Wireless mouse</h5>
+                    </td>
+                    <td>
+                        <h5>#30,000</h5>
+                    </td>
+                    <td><input class="w-25 pl-1" value="1" type="number"></td>
+                    <td>
+                        <h5> #30,000</h5>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+
+    <!--Section 2-->
+<section id="cart-bottom" class="container">
+    <div class="row">
+        <div class="coupon col-lg-6 col-md-6 col-12 mb-4">
+            <div>
+                <h5> COUPON </h5>
+                <p> Enter coupon code here</p>
+                <input type="text" placeholder="Coupon Code">
+                <button>APPLY COUPON</button>
+            </div>
+        </div>
+        <div class="total col-lg-6 col-md-6 col-12">
+            <div>
+                <h5> CART TOTAL</h5>
+                <div class="d-flex justify-content-between">
+                    <h6>Subtotal</h6>
+                    <p>#500,000</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <h6>Shipping</h6>
+                    <p>#300,000</p>
+                </div>
+                <hr class="second-hr">
+                <div class="d-flex justify-content-between">
+                    <h6>Total</h6>
+                    <p>#800,000</p>
+                </div>
+
+                <button class="ml-auto">See You Again</button>
+        </div>
+    </div>
+        </div>
+
+</section>
+
+
+
+<!--Footer-->
+<footer class="mt-5 py-5">
+    <div class="row container mx-auto pt-5">
+      <div class="footer-1 col-lg-3 col-md-6 col-12">
+        <h2>FEMTECH IT SERVICE</h2>
+        <p class="pt-5"> Get your latest affordable and durable accessories at FEMTECH IT Ilorin with waranty guaranted on all purchase of new items made at the taiwo branch. Come to FEMTECH we gaht you on board.</p>
+         </div>
+  
+         <div class="footer-2 col-lg-3 col-md-6 col-12">
+           <h2 class="pb-2">Featured Items</h2>
+           <ul class="text-uppercase list-unstyled">
+             <li><a href="#">Mouse</a></li>
+             <li><a href="#">Keyboard</a></li>
+             <li><a href="#">Joystick</a></li>
+             <li><a href="#">Flash Drive</a></li>
+             <li><a href="#">Laptop</a></li>
+             <li><a href="#">Iphone</a></li>
+             <li><a href="#">Samsung</a></li>
+             <li><a href="#">Tecno</a></li>          
+           </ul>
+         </div>
+  
+         <div class="footer-3 col-lg-3 col-md-6 col-12">
+           <h5 class="pb-2">Contact Us</h5>
+           <div>
+             <h6 class="text-uppercase"> Address</h6>
+             <p> Taiwo, Ilorin Kwara State</p>
+           </div>
+           <div>
+            <h6 class="text-uppercase"> Phone Number</h6>
+            <p> 07012345678</p>
+          </div>
+          <div>
+            <h6 class="text-uppercase"> Email</h6>
+            <p>Femtech@gmail.com</p>
+          </div>
+         </div>
+  
+          <div class="footer-4 col-lg-3 col-md-6 col-12">
+            <h5 class="pb-2">Instagram</h5>
+            <div class="row">
+              <img class="img-fluid w-25 h-100 m-2" src="Static/images/L11.jpg">
+              <img class="img-fluid w-25 h-100 m-2" src="Static/images/s4.jpg">
+              <img class="img-fluid w-25 h-100 m-2" src="Static/images/t6.jpg">
+              <img class="img-fluid w-25 h-100 m-2" src="Static/images/m8.jpg">
+              <img class="img-fluid w-25 h-100 m-2" src="Static/images/L4.jpg">
+            </div>
+          </div>
+    </div>
+  
+    <div class="copyright mt-5">
+      <div class="row container mx-auto">
+        <div class="col-lg-3 col-md-6 col-12">
+          <img class="img-fluid" src="Static/images/Payment.jpg">
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <p>Copyright &copy; 2023, Ganiyu ecom</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>sss
+
+</body>
+</html>
